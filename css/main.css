@@ -911,9 +911,12 @@
      Media Queries for Responsive Design
     ========================================================================== */
    
-     @media only screen and (min-width: 1921px) {
+@media only screen and (min-width: 1921px) {
      .bd-ex {
          background-size: cover;
+     }
+     .textContain {
+         padding-top: 13%;
      }
  }
 
