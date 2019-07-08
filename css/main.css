@@ -1107,6 +1107,7 @@
    .bd-ex #carouselEC {
       top: 38px;
       height: 123px;
+      right: 35px;
     }
     .mainSection {
         height: 530px;
@@ -1121,7 +1122,6 @@
     .resumeArea h2 .lineB {
         font-size: 14px;
     }
-
  }
 
  @media only screen and (max-width: 500px) {
