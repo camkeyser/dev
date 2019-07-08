@@ -998,6 +998,9 @@
     .textContain h2 {
         font-size: 20px;
     }
+    .bd-ex #carouselEC {
+        top: 80px;
+    }
  }
  @media only screen and (max-width: 999px) {
     .bd-ex {
