@@ -1168,6 +1168,9 @@
    .resBox h2 {
         font-size: 17px;
    }
+   .resumeArea h2 .lineB {
+        font-size: 12px;
+   }
 }
 
 
