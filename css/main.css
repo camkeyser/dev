@@ -1212,6 +1212,10 @@
    .textContain h1 {
       font-size: 50px;
     }
+    .bd-ex #carouselEC {
+        right: 12px;
+        width: 60%;
+    }
  }
   @media only screen and (max-width: 350px) {
       .blackBox1 img {
