@@ -231,13 +231,14 @@
       background-repeat: no-repeat;
  }
 
- .bd-ex #carouselEC {
-     float: right;
-     width: 1050px;
-     max-width: 65%;
-     top: 125px;
-     height: 450px;
- }
+.bd-ex #carouselEC {
+    float: right;
+    width: 1080px;
+    max-width: 65%;
+    top: 125px;
+    height: 450px;
+    right: 100px;
+}
  .bd-ex img.d-block {
      margin-bottom: 150px;
      max-width: 420px;
