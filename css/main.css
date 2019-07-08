@@ -223,7 +223,7 @@
      color: white;
  }
 
- .bd-example {
+ .bd-ex {
      background-image: url(/dev/images/comp123.jpg);
      height: 680px;
      overflow: hidden;
@@ -231,18 +231,18 @@
       background-repeat: no-repeat;
  }
 
- .bd-example #carouselEC {
+ .bd-ex #carouselEC {
      float: right;
      width: 1050px;
      max-width: 65%;
      top: 125px;
      height: 450px;
  }
- .bd-example img.d-block {
+ .bd-ex img.d-block {
      margin-bottom: 150px;
      max-width: 420px;
  }
- .bd-example .carousel-control-next-icon, .bd-example .carousel-control-prev-icon {
+ .bd-ex .carousel-control-next-icon, .bd-ex .carousel-control-prev-icon {
      width: 42px !important;
      height: 42px !important;
  }
@@ -253,7 +253,7 @@
  .lowerContent {
      background: #e3e3e3;
  }
- .bd-example .carousel-caption {
+ .bd-ex .carousel-caption {
      bottom: -20px !important;
      background: #0000005c;
      border-radius: 15px 15px;
@@ -263,7 +263,7 @@
      text-shadow: black 0 0 15px;
  }
 
- .bd-example .carousel-inner {
+ .bd-ex .carousel-inner {
      height: 100%;
  }
  nav {
@@ -911,13 +911,13 @@
     ========================================================================== */
    
      @media only screen and (min-width: 1921px) {
-     .bd-example {
+     .bd-ex {
          background-size: cover;
      }
  }
 
  @media only screen and (max-width: 1920px) {
-     .bd-example {
+     .bd-ex {
          height: 580px;
          background-size: cover;
      }
@@ -932,7 +932,7 @@
          height: 680px;
      }
 
-     .bd-example img.d-block {
+     .bd-ex img.d-block {
          max-width: 320px;
      }
 
@@ -946,15 +946,15 @@
          height: 650px;
      }
 
-     .bd-example {
+     .bd-ex {
          height: 510px;
      }
-   .bd-example #carouselEC {
+   .bd-ex #carouselEC {
          height: 370px;
     }
  }
  @media only screen and (max-width: 1300px) {
-     .bd-example {
+     .bd-ex {
          height: 420px;
      }
       .carousel-caption {
@@ -965,7 +965,7 @@
         height: 0;
         display: none;
     } 
-    .bd-example #carouselEC {
+    .bd-ex #carouselEC {
         height: 250px;
     }   
    .camSmile {
@@ -985,7 +985,7 @@
      .resumeArea {
          max-width: 95%;
      }
-     .bd-example {
+     .bd-ex {
          height: 360px;
      }
    .mainSection {
@@ -998,10 +998,10 @@
     }
  }
  @media only screen and (max-width: 999px) {
-    .bd-example {
+    .bd-ex {
         height: 333px;
     }
-   .bd-example #carouselEC {
+   .bd-ex #carouselEC {
         height: 210px;
     }
    .textContain {
@@ -1012,13 +1012,13 @@
  }
 
   @media only screen and (max-width: 850px) {
-    .bd-example {
+    .bd-ex {
           height: 270px;
     }  
-    .bd-example img.d-block {
+    .bd-ex img.d-block {
         max-width: 245px;
     }
-    .bd-example #carouselEC {
+    .bd-ex #carouselEC {
         top: 65px;
         height: 170px;
     }
@@ -1039,7 +1039,7 @@
      .resBox h2 {
          font-size: 26px;
      }
-    .bd-example {
+    .bd-ex {
           height: 225px;
      }
    .mainSection {
@@ -1056,13 +1056,13 @@
  }
 
 @media only screen and (max-width: 615px) {
-  .bd-example {
+  .bd-ex {
     height: 180px;
   }
-  .bd-example img.d-block {
+  .bd-ex img.d-block {
     max-width: 175px;
   }
-  .bd-example #carouselEC {
+  .bd-ex #carouselEC {
     top: 50px;
     height: 130px;
   }
@@ -1089,13 +1089,13 @@
      .social-icons li {
          width: 50%;
      }
-   .bd-example {
+   .bd-ex {
       height: 160px;
     }
-   .bd-example img.d-block {
+   .bd-ex img.d-block {
       max-width: 145px;
     }
-   .bd-example #carouselEC {
+   .bd-ex #carouselEC {
       top: 38px;
       height: 123px;
     }
