@@ -987,6 +987,7 @@
     .bd-ex #carouselEC {
         height: 250px;
         width: 50%;
+        right: 60px;
     }   
    .camSmile {
         width: 250px;
