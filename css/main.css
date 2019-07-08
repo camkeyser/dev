@@ -267,7 +267,7 @@
      height: 100%;
  }
  nav {
-     z-index: 999 !important;
+     z-index: 9999 !important;
  }
  ul.navbar-nav.mr-auto {
      max-width: 150px;
@@ -655,7 +655,7 @@
  nav {
      position: absolute !important;
      width: 100% !important;
-     z-index: 999 !important;
+     z-index: 9999 !important;
  }
  .navbar-toggler {
   border: none !important;
