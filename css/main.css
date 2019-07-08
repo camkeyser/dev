@@ -237,7 +237,7 @@
     max-width: 65%;
     top: 125px;
     height: 450px;
-    right: 100px;
+    right: 200px;
 }
  .bd-ex img.d-block {
      margin-bottom: 150px;
@@ -921,6 +921,14 @@
      .textContain {
          padding-top: 13%;
      }
+  .bd-ex #carouselEC {
+        float: right;
+        width: 950px;
+        max-width: 65%;
+        top: 125px;
+        height: 450px;
+        right: 300px;
+    }
  }
 
  @media only screen and (max-width: 1920px) {
@@ -946,6 +954,9 @@
      .textContain h2 {
          font-size: 26px;
      }
+   .bd-ex #carouselEC {
+        right: 150px;
+    }
  }
 
  @media only screen and (max-width: 1600px) {
