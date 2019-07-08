@@ -206,7 +206,7 @@
      margin-top: 25px;
      margin-bottom: 25px;
  }
- .resumeArea h2 span {
+ .resumeArea h2 .lineB {
      font-size: 16px;
  }
  .textContain a {
@@ -1157,6 +1157,13 @@
     .resBox li {
         font-size: 13px;
     }
+   .resBox p, 
+   .resBox i {
+        font-size: 14px;
+   }
+   .resBox h2 {
+        font-size: 17px;
+   }
 }
 
 
