@@ -297,7 +297,7 @@
  .blackBox1 img {
     max-width: 250px;
     border-radius: 13px;
-    border: white solid 2px;
+    border: #cbcbcb solid 2px;
  }
  .blackBox1 {
      padding-bottom: 50px;
