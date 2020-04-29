@@ -931,8 +931,9 @@
 .demoSite {
     margin: 35px 0;
 }
-
-
+button {
+    padding: 8px 30px !important;
+}
   
  /* ==========================================================================
      Media Queries for Responsive Design
