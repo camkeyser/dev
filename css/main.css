@@ -99,11 +99,11 @@
    }
 
    .mainSection {
-     height: 800px;
+     height: 650px;
      background: url(/dev/images/fadedbg01.png);
      background-size: cover;
      background-repeat: no-repeat;
-     background-position: bottom;
+     background-position: top;
  }
 
  .mainContent h4 {
@@ -119,7 +119,7 @@
  }
 
    .textContain {
-     padding-top: 16%;
+     padding-top: 10%;
      color: #fff;
      z-index: 9;
      width: 700px;
@@ -953,7 +953,7 @@ button {
          background-size: cover;
      }
      .textContain {
-         padding-top: 13%;
+         padding-top: 8%;
      }
   .bd-ex #carouselEC {
         float: right;
@@ -995,7 +995,7 @@ button {
 
  @media only screen and (max-width: 1600px) {
      .mainSection {
-         height: 650px;
+         height: 550px;
      }
 
      .bd-ex {
@@ -1044,8 +1044,7 @@ button {
          height: 360px;
      }
    .mainSection {
-       /* background: url(/dev/images/smallMain2.jpg);*/
-        background-position: bottom;
+        background-position: top;
         background-size: 100%;
     }
     .textContain h2 {
