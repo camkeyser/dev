@@ -953,7 +953,7 @@ a, button {
  }
 
 .demoLink {
-    border-radius: 25px !important; */
+    border-radius: 10px !important;
     background-color: #33353d;
     border: solid 1px white;
     padding: 5px 15px;
