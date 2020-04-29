@@ -192,7 +192,8 @@
  .miniBox i {
      border: solid 1px black;
      padding: 4px 10px;
-     border-radius: 25px;
+     border-radius: 10px;
+     font-style: normal;
  }
  .resBox {
      text-align: left; 
