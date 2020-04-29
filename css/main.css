@@ -100,7 +100,7 @@
 
    .mainSection {
      height: 800px;
-     background: url(/dev/images/roundbg1.jpg);
+     background: url(/dev/images/fadedbg.png);
      background-size: cover;
      background-repeat: no-repeat;
      background-position: bottom;
@@ -123,8 +123,8 @@
      color: #fff;
      z-index: 9;
      width: 700px;
-     max-width: 80%;
-     margin: 0 auto;
+     max-width: 45%;
+     float: right;
  }
 
  .textContain span {
