@@ -909,6 +909,26 @@
    clear: both;
  }
 
+.demoLink {
+    border-radius: 25px !important;
+    background-color: #33353d;
+    border: none;
+    padding: 5px 15px;
+}
+
+.demoLink a {
+    color: #d1d1d1;
+}
+
+.demoLink a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.demoLink:hover {
+    background: green;
+}
+
   
  /* ==========================================================================
      Media Queries for Responsive Design
