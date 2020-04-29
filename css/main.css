@@ -747,6 +747,7 @@ p {
    width: 80px;
    transition: all 0.5s ease 0s;
    background-color: black !important;
+   border: solid;
  }
  .feature-block img {
      max-width: 80%;
@@ -807,8 +808,10 @@ p {
  .btn-exp {
    background-color: #33353d !important;
    color: #fff  !important;
-   border-color: #5c0c90 !important;
-   border: solid 1px !important;
+   border: solid 1px #8627c3 !important;
+ }
+ .btn-exp:hover {
+	border: solid 1px #672095 !important;
  }
  .btn-info {
  	background-color: #33353d !important;
@@ -824,9 +827,9 @@ p {
     background-color: #33353d;
     border-color: #1e7e34;
 }
- .color-exp {
-   color: #fff;
- }
+.resumeArea h4 {
+    color: white;
+}
  .fb-icon.color-exp {
    background-color: #5c0c90;
    color: #fff;
