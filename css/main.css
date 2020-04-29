@@ -819,6 +819,11 @@ p {
  .btn-success {
  	background-color: #33353d !important;
  }
+ .btn-success:hover {
+    color: #fff;
+    background-color: #33353d;
+    border-color: #1e7e34;
+}
  .color-exp {
    color: #fff;
  }
