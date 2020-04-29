@@ -968,17 +968,19 @@ a, button {
    clear: both;
  }
 
-.demoLink {
-    border-radius: 10px !important;
-    background-color: #33353d;
-    border: solid 1px white;
-    padding: 5px 15px;
-    margin: 0 15px;
-    }
+ .demoLink {
+     border-radius: 10px !important;
+     background-color: #33353d;
+     border: solid 1px white;
+     padding: 10px 0;
+     margin: 0 15px;
+     overflow: hidden;
+ }
 
-.demoLink a {
-    color: #d1d1d1;
-}
+ .demoLink a {
+     color: #d1d1d1;
+     padding: 20px 50px;
+ }
 
 .demoLink a:hover {
     text-decoration: none;
