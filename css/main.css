@@ -173,6 +173,7 @@
  .resumeArea h3 {
      margin-top: 45px;
      font-family: 'Josefin Sans', sans-serif;
+     font-size: 45px;
  }
  .resumeArea {
      max-width: 85%;
@@ -845,7 +846,7 @@ p {
  .btn-exp.focus, .btn-exp:focus {
      outline: 0;
      box-shadow: 0 0 0 0.2rem rgba(134, 39, 195, 0.48) !important;
-     
+
  }
 
  .modal-body img {
