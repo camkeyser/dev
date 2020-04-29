@@ -100,7 +100,7 @@
 
    .mainSection {
      height: 800px;
-     background: url(/dev/images/fadedbg01.png);
+     background: url(/dev/images/fadedbg.png);
      background-size: cover;
      background-repeat: no-repeat;
      background-position: bottom;
@@ -134,6 +134,7 @@
    .textContain h1 {
        font-size: 95px;
        margin-bottom: -5px;
+       font-family: 'Josefin Sans', sans-serif;
    }
 
 
@@ -167,9 +168,11 @@
  .mainContent {
      background: white;
      margin-bottom: 45px;
+     margin-top: 45px;
  }
  .resumeArea h3 {
      margin-top: 45px;
+     font-family: 'Josefin Sans', sans-serif;
  }
  .resumeArea {
      max-width: 85%;
@@ -262,7 +265,12 @@
  }
  a.navbar-brand {
      text-shadow: black 0 0 15px;
+     font-family: 'Josefin Sans', sans-serif;
  }
+
+h2 {
+	font-family: 'Josefin Sans', sans-serif;
+}
 
  .bd-ex .carousel-inner {
      height: 100%;
@@ -343,6 +351,7 @@
      letter-spacing: 2px;
      text-align: center;
      margin-bottom: 25px;
+     font-family: 'Josefin Sans', sans-serif;
  }
  .site-footer a
  {
