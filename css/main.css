@@ -807,11 +807,16 @@ p {
  .btn-exp {
    background-color: #33353d !important;
    color: #fff  !important;
+   border-color: #5c0c90 !important;
+   border: solid 1px !important;
  }
  .btn-info {
  	background-color: #33353d !important;
  }
  .btn-danger {
+ 	background-color: #33353d !important;
+ }
+ .btn-success {
  	background-color: #33353d !important;
  }
  .color-exp {
