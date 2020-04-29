@@ -1035,7 +1035,7 @@ button {
          height: 360px;
      }
    .mainSection {
-        background: url(/dev/images/smallMain2.jpg);
+       /* background: url(/dev/images/smallMain2.jpg);*/
         background-position: bottom;
         background-size: 100%;
     }
