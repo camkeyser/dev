@@ -723,7 +723,7 @@ p {
    line-height: 24px;
  }
  .feature-block {
-     background-color: #fff;
+     background-color: #1f2022;
      border-radius: 15px;
      padding: 15px;
      box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.37);
@@ -737,7 +737,7 @@ p {
    box-shadow: 0 3px 4px 3px rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 1px 8px 3px rgba(0, 0, 0, 0.12);
  }
  .fb-icon {
-   border-radius: 50%;
+   border-radius: 10px;
    display: block;
    font-size: 36px;
    height: 80px;
@@ -746,6 +746,7 @@ p {
    margin:1rem auto;
    width: 80px;
    transition: all 0.5s ease 0s;
+   background-color: black !important;
  }
  .feature-block img {
      max-width: 80%;
@@ -804,11 +805,17 @@ p {
    text-decoration: none;
  }
  .btn-exp {
-   background-color: #5c0c90 !important;
+   background-color: #33353d !important;
    color: #fff  !important;
  }
+ .btn-info {
+ 	background-color: #33353d !important;
+ }
+ .btn-danger {
+ 	background-color: #33353d !important;
+ }
  .color-exp {
-   color: #5c0c90;
+   color: #fff;
  }
  .fb-icon.color-exp {
    background-color: #5c0c90;
