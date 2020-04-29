@@ -1061,10 +1061,6 @@ button {
    .bd-ex #carouselEC {
         height: 210px;
     }
-   .textContain {
-    padding-top: 20%;
-    max-width: 80%;
-}
 
  }
 
@@ -1081,6 +1077,11 @@ button {
     }
     .mainSection {
         background-size: 100%;
+    }
+    .mainSection {
+      height: 375px;
+      background-position: top;
+
     }
   }
    
@@ -1132,7 +1133,7 @@ button {
   }
   .textContain {
     padding-left: 0;
-    max-width: 100%;
+    max-width: 60%;
   }
   .modal-body h4 {
     font-weight: 100;
