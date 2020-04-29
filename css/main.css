@@ -813,9 +813,9 @@ p {
  .btn-exp:hover {
 	border: solid 1px #672095 !important;
  }
-.btn-exp:focus {
+/*.btn-exp:focus {
  	box-shadow: 0 0 0 0.2rem rgb(83, 33, 117);
- }
+ }*/
  .btn-info {
  	background-color: #33353d !important;
  }
@@ -844,7 +844,8 @@ p {
  }
  .btn-exp.focus, .btn-exp:focus {
      outline: 0;
-     box-shadow: 0 0 0 0.2rem rgba(104, 9, 144, 0.25) !important;
+     box-shadow: 0 0 0 0.2rem rgba(134, 39, 195, 0.48) !important;
+     
  }
 
  .modal-body img {
