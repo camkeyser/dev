@@ -458,8 +458,8 @@ p {
  }
  .social-icons a:active,.social-icons a:focus,.social-icons a:hover
  {
-   color:#fff;
-   background-color:#29aafe;
+   color: #fff;
+   background-color: #2a8154;
  }
  .social-icons.size-sm a
  {
@@ -868,6 +868,10 @@ p {
      z-index: 999999 !important;
 }
 
+a, button {
+    border-radius: 10px !important;
+}
+
   /* ==========================================================================
     Helper classes
     ========================================================================== */
@@ -949,11 +953,12 @@ p {
  }
 
 .demoLink {
-    border-radius: 25px !important;
+    border-radius: 25px !important; */
     background-color: #33353d;
-    border: none;
+    border: solid 1px white;
     padding: 5px 15px;
-}
+    margin: 0 15px;
+    }
 
 .demoLink a {
     color: #d1d1d1;
