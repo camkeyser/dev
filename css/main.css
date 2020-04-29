@@ -968,11 +968,15 @@ a, button {
    clear: both;
  }
 
+ button {
+     padding: 8px 30px !important;
+ }
+
  .demoLink {
      border-radius: 10px !important;
      background-color: #33353d;
      border: solid 1px white;
-     padding: 10px 0;
+     padding: 10px 0 !important;
      margin: 0 15px;
      overflow: hidden;
  }
@@ -993,9 +997,7 @@ a, button {
 .demoSite {
     margin: 35px 0;
 }
-button {
-    padding: 8px 30px !important;
-}
+
   
  /* ==========================================================================
      Media Queries for Responsive Design
