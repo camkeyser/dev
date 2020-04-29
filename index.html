@@ -1,1403 +1,344 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   
- /* ==========================================================================
-    Base styles: opinionated defaults
-    ========================================================================== */
-
-    html {
-     color: #222;
-     font-size: 1em;
-     line-height: 1.4;
-     scroll-behavior: smooth;
- }
-
-
- ::-moz-selection {
-     background: #b3d4fc;
-     text-shadow: none;
- }
-
- ::selection {
-     background: #b3d4fc;
-     text-shadow: none;
- }
-
- /*
-  * A better looking default horizontal rule
-  */
-
- hr {
-     display: block;
-     height: 1px;
-     border: 0;
-     border-top: 1px solid #ccc;
-     margin: 1em 0;
-     padding: 0;
- }
-
- /*
-  * Remove the gap between audio, canvas, iframes,
-  * images, videos and the bottom of their containers:
-  * https://github.com/h5bp/html5-boilerplate/issues/440
-  */
-
- audio,
- canvas,
- iframe,
- img,
- svg,
- video {
-     vertical-align: middle;
- }
-
- /*
-  * Remove default fieldset styles.
-  */
-
- fieldset {
-     border: 0;
-     margin: 0;
-     padding: 0;
- }
-
- /*
-  * Allow only vertical resizing of textareas.
-  */
-
- textarea {
-     resize: vertical;
- }
-
- /* ==========================================================================
-    Browser Upgrade Prompt
-    ========================================================================== */
-
- .browserupgrade {
-     margin: 0.2em 0;
-     background: #ccc;
-     color: #000;
-     padding: 0.2em 0;
- }
-
-
-
-
-  /* ==========================================================================
-    Custom styles
-    ========================================================================== */
-
-
- a:hover {
-     cursor: pointer !important;
- }
-
-   .topnav {
-       position: fixed;
-       height: 70px;
-       background-color: #000;
-       width: 100%;
-       z-index: 10;
-   }
-
-   .mainSection {
-     height: 650px;
-     background: url(/dev/images/fadedbg01.png);
-     background-size: cover;
-     background-repeat: no-repeat;
-     background-position: top;
- }
-
- .mainContent h4 {
-     font-size: 17px;
- }
- button {
-     border-radius: 25px !important;
- }
-   
- .textContain,
- .mainContent .animated {
-     animation-duration: 1.5s !important;
- }
-
-   .textContain {
-     padding-top: 10%;
-     color: #fff;
-     z-index: 9;
-     width: 700px;
-     max-width: 45%;
-     float: right;
- }
-
- .textContain span {
-     font-size: 40px;
- }
-
-   .textContain h1 {
-       font-size: 95px;
-       margin-bottom: -5px;
-       font-family: 'Josefin Sans', sans-serif;
-   }
-
-
- .textContain h2 {
-     font-size: 28px;
-     font-weight: 100;
-     margin-bottom: 20px;
- }
-   .camSmile {
-     max-width: 45%;
-     width: 210px;
-     float: left;
-     padding-bottom: 175px;
- }
-
-#About p {
-    font-size: 18px;
-    font-weight: 100;
-}
-
- .row {
-     margin-right: 0px !important;
-     margin-left: 0px !important;
- }
-
- .doubleBoxes {
-  padding-left: 0px !important;
-  padding-right: 0px !important;
- }
-
- .mainContent {
-     background: white;
-     margin-bottom: 115px;
-     margin-top: 75px;
- }
- .resumeArea h3 {
-     margin-top: 45px;
-     font-family: 'Josefin Sans', sans-serif;
-     font-size: 45px;
- }
- .resumeArea {
-     max-width: 85%;
-     width: 1250px;
-     margin: 0 auto;
-     margin-bottom: 60px;
-     margin-top: 75px;
- }
- .resumeArea ul {
-     text-align: left;
- }
- .miniBox p {
-   font-weight: 100;
-   font-size: 20px;
- }
- .miniBox i {
-     border: solid 1px black;
-     padding: 4px 10px;
-     border-radius: 25px;
- }
- .resBox {
-     text-align: left; 
-     padding-left: 25px;
-     padding-right: 25px;
- }
- .resBox p {
-     margin-bottom: 0;
- }
-
- .resBox i {
-     margin-bottom: 10px;
- }
- .resBox hr {
-     margin-top: 25px;
-     margin-bottom: 25px;
- }
- .resumeArea h2 .lineB {
-     font-size: 16px;
- }
- .textContain a {
-     color: white;
-     border: solid 2px white;
-     border-radius: 25px;
-     padding: 5px 17px;
-      margin-right: 13px;
- }
-
- .textContain a:hover {
-     text-decoration: none;
-     background-color: black;
-     color: white;
- }
-
- .bd-ex {
-     background-image: url(/dev/images/comp123.jpg);
-     height: 680px;
-     overflow: hidden;
-     background-position: center top;
-      background-repeat: no-repeat;
- }
-
-.bd-ex #carouselEC {
-    float: right;
-    width: 1080px;
-    max-width: 65%;
-    top: 125px;
-    height: 450px;
-    right: 200px;
-}
- .bd-ex img.d-block {
-     margin-bottom: 150px;
-     max-width: 420px;
- }
- .bd-ex .carousel-control-next-icon, .bd-ex .carousel-control-prev-icon {
-     width: 42px !important;
-     height: 42px !important;
- }
- .middleContent {
-     height: 550px;
-     background: #212227;
- }
- .lowerContent {
-     background: #e3e3e3;
- }
- .bd-ex .carousel-caption {
-     bottom: -20px !important;
-     background: #0000005c;
-     border-radius: 15px 15px;
-     padding: 10px 20px;
- }
- a.navbar-brand {
-     text-shadow: black 0 0 15px;
-     font-family: 'Josefin Sans', sans-serif;
- }
-
-h2 {
-	font-family: 'Josefin Sans', sans-serif;
-}
-
- .bd-ex .carousel-inner {
-     height: 100%;
- }
- nav {
-     z-index: 9999 !important;
- }
- ul.navbar-nav.mr-auto {
-     max-width: 150px;
-     padding: 5px 15px 10px 15px;
- }
- .mainPIC {
-     border-radius: 50%;
-     box-shadow: 3px 3px 1px #ccc;
-     -webkit-box-shadow: 3px 3px 1px #ccc;
-     -moz-box-shadow: 3px 3px 1px #ccc;
- }
-
- .dividerArea {
-     background: #1f2023;
-     color: white;
-     text-align: center;
-     margin-top: 100px;
-     margin-bottom: 100px;
-     transform: skewY(5deg);
- }
- .blackBox1 .row {
-     width: 850px;
-     margin: 0 auto !important;
-     max-width: 85%;
- }
-
- .blackBox1 img {
-    max-width: 250px;
-    border-radius: 13px;
-    border: #cbcbcb solid 2px;
- }
- .blackBox1 {
-     padding-bottom: 120px;
-     padding-top: 120px;
-     transform: skewY(-5deg);
- }
- .blackBox1 img:hover {
-     border: #24805c solid 2px;
- }
-.blackBox1 h2 {
-    font-weight: 100;
-}
-p {
-    font-family: 'Catamaran', sans-serif;
-}
-
-
- /* Footer area */
-
- .bottomArea {
-    height: 200px;
-    background-color: white;
- }
-
- .site-footer
- {
-   background-color:#1f2023;
-   padding:45px 0 20px;
-   font-size:15px;
-   line-height:24px;
-   color:#737373;
- }
- .site-footer hr
- {
-   border-top-color:#bbb;
-   opacity:0.5;
- }
- .site-footer hr.small
- {
-   margin:20px 0;
- }
- .site-footer h6 {
-     color: #fff;
-     font-size: 16px;
-     text-transform: uppercase;
-     margin-top: 5px;
-     letter-spacing: 2px;
-     text-align: center;
-     margin-bottom: 25px;
-     font-family: 'Josefin Sans', sans-serif;
- }
- .site-footer a
- {
-   color:#737373;
- }
- .site-footer a:hover
- {
-   color:#3366cc;
-   text-decoration:none;
- }
- .footer-links
- {
-   padding-left:0;
-   list-style:none;
- }
- .footer-links li
- {
-   display:block;
- }
- .footer-links a
- {
-   color:#737373;
- }
- .footer-links a:active,.footer-links a:focus,.footer-links a:hover
- {
-   color:#3366cc;
-   text-decoration:none;
- }
- .footer-links.inline li
- {
-   display:inline-block;
- }
- .site-footer .social-icons
- {
-   text-align:right;
- }
- .site-footer .social-icons a
- {
-   line-height:40px;
-   border-radius: 25px;
-   background-color:#33353d;
- }
- .copyright-text {
-     margin: 0;
-     text-align: center;
-     font-style: italic;
- }
- @media (max-width:991px)
- {
-   .site-footer [class^=col-]
-   {
-     margin-bottom:30px;
-   }
- }
- @media (max-width:767px)
- {
-   .site-footer
-   {
-     padding-bottom:0;
-   }
-   .site-footer .copyright-text,.site-footer .social-icons
-   {
-     text-align:center;
-   }
- }
- .social-icons
- {
-   padding-left:0;
-   margin-bottom:0;
-   list-style:none;
- }
- .social-icons li
- {
-   margin-bottom:4px;
-   width: 25%;
-   float: left;
- }
- .social-icons li.title
- {
-   margin-right:15px;
-   text-transform:uppercase;
-   color:#96a2b2;
-   font-weight:700;
-   font-size:13px
- }
- .social-icons a{
-   background-color:#eceeef;
-   color: #818a91 !important;
-   font-size:16px;
-   display:block;
-   line-height:44px;
-   text-align:center;
-   margin-right:8px;
-   border-radius:25px;
-   -webkit-transition:all .2s linear;
-   -o-transition:all .2s linear;
-   transition:all .2s linear;
- }
- .social-icons a:active,.social-icons a:focus,.social-icons a:hover
- {
-   color: #fff;
-   background-color: #2a8154;
- }
- .social-icons.size-sm a
- {
-   line-height:34px;
-   height:34px;
-   width:34px;
-   font-size:14px;
- }
- .social-icons a.facebook:hover
- {
-   background-color:#2a8154;
- }
- .social-icons a.twitter:hover
- {
-   background-color:#00aced;
- }
- .social-icons a.linkedin:hover
- {
-   background-color:#007bb6;
- }
- .social-icons a.dribbble:hover
- {
-   background-color:#8547d6;
- }
- @media (max-width:767px)
- {
-   .social-icons li.title
-   {
-     display:block;
-     margin-right:0;
-     font-weight:600;
-   }
- }
- a.facebook:hover {
-     color: white !important;
-     cursor: pointer !important;
- }
-
- /* Icon 1 */
-
- .animated-icon1, .animated-icon2, .animated-icon3 {
- width: 30px;
- height: 20px;
- position: relative;
- margin: 0px;
- -webkit-transform: rotate(0deg);
- -moz-transform: rotate(0deg);
- -o-transform: rotate(0deg);
- transform: rotate(0deg);
- -webkit-transition: .5s ease-in-out;
- -moz-transition: .5s ease-in-out;
- -o-transition: .5s ease-in-out;
- transition: .5s ease-in-out;
- cursor: pointer;
- }
-
- .animated-icon1 span, .animated-icon2 span, .animated-icon3 span {
- display: block;
- position: absolute;
- height: 3px;
- width: 100%;
- border-radius: 9px;
- opacity: 1;
- left: 0;
- -webkit-transform: rotate(0deg);
- -moz-transform: rotate(0deg);
- -o-transform: rotate(0deg);
- transform: rotate(0deg);
- -webkit-transition: .25s ease-in-out;
- -moz-transition: .25s ease-in-out;
- -o-transition: .25s ease-in-out;
- transition: .25s ease-in-out;
- }
-
- .animated-icon1 span {
- background: #e65100;
- }
-
- .animated-icon2 span {
- background: #e3f2fd;
- }
-
- .animated-icon3 span {
- background: #fff;
- }
-
- .animated-icon1 span:nth-child(1) {
- top: 0px;
- }
-
- .animated-icon1 span:nth-child(2) {
- top: 10px;
- }
-
- .animated-icon1 span:nth-child(3) {
- top: 20px;
- }
-
- .animated-icon1.open span:nth-child(1) {
- top: 11px;
- -webkit-transform: rotate(135deg);
- -moz-transform: rotate(135deg);
- -o-transform: rotate(135deg);
- transform: rotate(135deg);
- }
-
- .animated-icon1.open span:nth-child(2) {
- opacity: 0;
- left: -60px;
- }
-
- .animated-icon1.open span:nth-child(3) {
- top: 11px;
- -webkit-transform: rotate(-135deg);
- -moz-transform: rotate(-135deg);
- -o-transform: rotate(-135deg);
- transform: rotate(-135deg);
- }
-
- /* Icon 3*/
-
- .animated-icon2 span:nth-child(1) {
- top: 0px;
- }
-
- .animated-icon2 span:nth-child(2), .animated-icon2 span:nth-child(3) {
- top: 10px;
- }
-
- .animated-icon2 span:nth-child(4) {
- top: 20px;
- }
-
- .animated-icon2.open span:nth-child(1) {
- top: 11px;
- width: 0%;
- left: 50%;
- }
-
- .animated-icon2.open span:nth-child(2) {
- -webkit-transform: rotate(45deg);
- -moz-transform: rotate(45deg);
- -o-transform: rotate(45deg);
- transform: rotate(45deg);
- }
-
- .animated-icon2.open span:nth-child(3) {
- -webkit-transform: rotate(-45deg);
- -moz-transform: rotate(-45deg);
- -o-transform: rotate(-45deg);
- transform: rotate(-45deg);
- }
-
- .animated-icon2.open span:nth-child(4) {
- top: 11px;
- width: 0%;
- left: 50%;
- }
-
- /* Icon 4 */
-
- .animated-icon3 span:nth-child(1) {
- top: 0px;
- -webkit-transform-origin: left center;
- -moz-transform-origin: left center;
- -o-transform-origin: left center;
- transform-origin: left center;
- }
-
- .animated-icon3 span:nth-child(2) {
- top: 10px;
- -webkit-transform-origin: left center;
- -moz-transform-origin: left center;
- -o-transform-origin: left center;
- transform-origin: left center;
- }
-
- .animated-icon3 span:nth-child(3) {
- top: 20px;
- -webkit-transform-origin: left center;
- -moz-transform-origin: left center;
- -o-transform-origin: left center;
- transform-origin: left center;
- }
-
- .animated-icon3.open span:nth-child(1) {
- -webkit-transform: rotate(45deg);
- -moz-transform: rotate(45deg);
- -o-transform: rotate(45deg);
- transform: rotate(45deg);
- top: 0px;
- left: 8px;
- }
-
- .animated-icon3.open span:nth-child(2) {
- width: 0%;
- opacity: 0;
- }
-
- .animated-icon3.open span:nth-child(3) {
- -webkit-transform: rotate(-45deg);
- -moz-transform: rotate(-45deg);
- -o-transform: rotate(-45deg);
- transform: rotate(-45deg);
- top: 21px;
- left: 8px;
- }
-
- nav {
-     position: absolute !important;
-     width: 100% !important;
-     z-index: 9999 !important;
- }
- .navbar-toggler {
-  border: none !important;
+  <link rel="shortcut icon" type="image/x-icon" href="/dev/favicon.ico">
   
- }
- button:focus {
-     outline: none !important;
- }
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
 
-
-
-.progBox {
-    width: 500px;
-    max-width: 70%;
-}
-.progress {
-    margin-top: 20px;
-    height: 45px !important;
-    border-radius: 25px !important;
-    background: none !important;
-    border: solid 2px white !important;
-}
-.progress-bar {
-    background-color: #4f3171 !important;
-    text-align: right !important;
-    font-size: 20px !important;
-    font-weight: 600 !important;
-    padding-right: 7px !important;
-}
-
-
-
-
-
- /* box section  */
-
- .service-heading-block{
-   display:block;
-   margin-bottom:30px;
-   }
- .title {
-   display: block;
-   font-size: 30px;
-   font-weight: 200;
-   margin-bottom: 10px;
- }
- .sub-title {
-   font-size: 18px;
-   font-weight: 100;
-   line-height: 24px;
- }
- .feature-block {
-     background-color: #1f2022;
-     border-radius: 15px;
-     padding: 15px;
-     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.37);
-     margin-bottom: 15px;
-     margin-top: 15px;
-     transition: all ease .5s;
- }
- .ms-feature:hover, 
- .ms-feature:focus {
-   background-color: #fafafa;
-   box-shadow: 0 3px 4px 3px rgba(0, 0, 0, 0.14), 0 3px 3px -2px rgba(0, 0, 0, 0.2), 0 1px 8px 3px rgba(0, 0, 0, 0.12);
- }
- .fb-icon {
-   border-radius: 10px;
-   display: block;
-   font-size: 36px;
-   height: 80px;
-   line-height: 67px;
-   text-align:center;
-   margin:1rem auto;
-   width: 80px;
-   transition: all 0.5s ease 0s;
-   background-color: black !important;
-   border: solid;
- }
- .feature-block img {
-     max-width: 80%;
-     padding: 5px;
- }
- .feature-block:hover .fb-icon,
- .feature-block:focus .fb-icon {
-   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
-   transform: rotate(360deg);
- }
- .fb-icon.color-info {
-   background-color: #5bc0de;
-   color: #fff;
- }
- .fb-icon.color-warning {
-   background-color: #eea236;
-   color: #fff;
- }
- .fb-icon.color-success {
-   background-color: #5cb85c;
-   color: #fff;
- }
- .fb-icon.color-danger {
-   background-color: #d9534f;
-   color: #fff;
- }
- .feature-block h4 {
-     font-size: 23px;
-     font-weight: 100;
-     margin: 2rem 0 1rem;
-     text-decoration: overline;
- }
- .color-info {
-   color: #46b8da;
- }
- .color-warning {
-   color: #f0ad4e;
- }
- .color-success {
-   color: #4cae4c;
- }
- .color-danger {
-   color: #d43f3a;
- }
- .btn-custom{
-   border: medium none;
-   border-radius: 2px;
-   cursor: pointer;
-   font-size: 14px;
-   font-weight: 500;
-   letter-spacing: 0;
-   margin: 10px 1px;
-   outline: 0 none;
-   padding: 8px 30px;
-   position: relative;
-   text-decoration: none;
- }
- .btn-exp {
-   background-color: #33353d !important;
-   color: #fff  !important;
-   border: solid 1px #8627c3 !important;
- }
- .btn-exp:hover {
-	border: solid 1px #672095 !important;
- }
-/*.btn-exp:focus {
- 	box-shadow: 0 0 0 0.2rem rgb(83, 33, 117);
- }*/
- .btn-info {
- 	background-color: #33353d !important;
- }
- .btn-danger {
- 	background-color: #33353d !important;
- }
- .btn-success {
- 	background-color: #33353d !important;
- }
- .btn-success:hover {
-    color: #fff;
-    background-color: #33353d;
-    border-color: #1e7e34;
-}
-.resumeArea h4 {
-    color: white;
-}
- .fb-icon.color-exp {
-   background-color: #5c0c90;
-   color: #fff;
- }
- .btn-exp:hover {
-     color: #fff;
-     background-color: #3e0961;
-     border-color: #aa35f7;
- }
- .btn-exp.focus, .btn-exp:focus {
-     outline: 0;
-     box-shadow: 0 0 0 0.2rem rgba(134, 39, 195, 0.48) !important;
-
- }
-
- .modal-body img {
-     margin-right: 15px;
-     margin-left: 15px;
- }
-
- .modal-body {
-     text-align: center;
- }
- .modal-body img:hover {
-     transform: scale(1.06) !important;
- }
- .modal-body a {
-     color: black !important;
-     text-decoration: none !important;
- }
-.modal {
-     z-index: 999999 !important;
-}
-
-a, button {
-    border-radius: 10px !important;
-}
-
-  /* ==========================================================================
-    Helper classes
-    ========================================================================== */
-
- /*
-  * Hide visually and from screen readers
-  */
-
-  .hidden {
-   display: none !important;
- }
-
- /*
- * Hide only visually, but have it available for screen readers:
- * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- *
- * 1. For long content, line feeds are not interpreted as spaces and small width
- *    causes content to wrap 1 word per line:
- *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
- */
-
- .visuallyhidden {
-   border: 0;
-   clip: rect(0 0 0 0);
-   height: 1px;
-   margin: -1px;
-   overflow: hidden;
-   padding: 0;
-   position: absolute;
-   width: 1px;
-   white-space: nowrap; /* 1 */
- }
-
- /*
- * Extends the .visuallyhidden class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
- */
-
- .visuallyhidden.focusable:active,
- .visuallyhidden.focusable:focus {
-   clip: auto;
-   height: auto;
-   margin: 0;
-   overflow: visible;
-   position: static;
-   width: auto;
-   white-space: inherit;
- }
-
- /*
- * Hide visually and from screen readers, but maintain layout
- */
-
- .invisible {
-   visibility: hidden;
- }
-
- /*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-
- .clearfix:before,
- .clearfix:after {
-   content: " "; /* 1 */
-   display: table; /* 2 */
- }
-
- .clearfix:after {
-   clear: both;
- }
-
-.demoLink {
-    border-radius: 25px !important; */
-    background-color: #33353d;
-    border: solid 1px white;
-    padding: 5px 15px;
-    margin: 0 15px;
-    }
-
-.demoLink a {
-    color: #d1d1d1;
-}
-
-.demoLink a:hover {
-    text-decoration: none;
-    color: white;
-}
-
-.demoLink:hover {
-    background: #2a8154;
-}
-.demoSite {
-    margin: 35px 0;
-}
-button {
-    padding: 8px 30px !important;
-}
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
   
- /* ==========================================================================
-     Media Queries for Responsive Design
-    ========================================================================== */
-   
-@media only screen and (min-width: 1921px) {
-     .bd-ex {
-         background-size: cover;
-     }
-     .textContain {
-         padding-top: 8%;
-     }
-  .bd-ex #carouselEC {
-        float: right;
-        width: 950px;
-        max-width: 65%;
-        top: 125px;
-        height: 450px;
-        right: 300px;
-    }
- }
+  <link href="css/lightbox.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Catamaran|Josefin+Sans|Prompt&display=swap" rel="stylesheet">
 
- @media only screen and (max-width: 1920px) {
-     .bd-ex {
-         height: 580px;
-         background-size: cover;
-     }
-
-     .mainSection {
-         height: 720px;
-     }
- }
-
- @media only screen and (max-width: 1750px) {
-     .mainSection {
-         height: 570px;
-     }
-
-     .bd-ex img.d-block {
-         max-width: 320px;
-     }
-
-     .textContain h2 {
-         font-size: 26px;
-     }
-   .bd-ex #carouselEC {
-        right: 150px;
-    }
- }
-
- @media only screen and (max-width: 1600px) {
-     .mainSection {
-         height: 550px;
-     }
-
-     .bd-ex {
-         height: 510px;
-     }
-      .bd-ex #carouselEC {
-         height: 370px;
-         right: 0px;
-      }
- }
- @media only screen and (max-width: 1300px) {
-     .bd-ex {
-         height: 420px;
-     }
-      .carousel-caption {
-        height: 0;
-        display: none;
-    }
-      .carousel-caption {
-        height: 0;
-        display: none;
-    } 
-    .bd-ex #carouselEC {
-        height: 250px;
-        width: 50%;
-        right: 60px;
-    }   
-   .camSmile {
-        width: 250px;
-    }
- }
-
- @media only screen and (max-width: 1175px) {
-   .mainSection {
-      height: 450px;
-
-    }
-   
-}
-
- @media only screen and (max-width: 1100px) {
-     .resumeArea {
-         max-width: 95%;
-     }
-     .bd-ex {
-         height: 360px;
-     }
-   .mainSection {
-        background-position: top;
-        background-size: 100%;
-    }
-    .textContain h2 {
-        font-size: 20px;
-    }
-    .bd-ex #carouselEC {
-        top: 80px;
-    }
- }
- @media only screen and (max-width: 999px) {
-    .bd-ex {
-        height: 333px;
-    }
-   .bd-ex #carouselEC {
-        height: 210px;
-    }
-
- }
-
-  @media only screen and (max-width: 850px) {
-    .bd-ex {
-          height: 270px;
-    }  
-    .bd-ex img.d-block {
-        max-width: 245px;
-    }
-    .bd-ex #carouselEC {
-        top: 65px;
-        height: 170px;
-    }
-    .mainSection {
-        background-size: 100%;
-    }
-    .mainSection {
-      height: 375px;
-      background-position: top;
-
-    }
-  }
-   
- @media only screen and (max-width: 700px) {
-     .blackBox1 img {
-         max-width: 200px;
-     }
-
-     .blackBox1 h2 {
-         font-size: 20px !important;
-     }
-
-     .resBox h2 {
-         font-size: 26px;
-     }
-    .bd-ex {
-          height: 225px;
-     }
-   .mainSection {
-        background-size: 100%;
-        background-repeat: no-repeat;
-        background-position: top;
-    }
-    .textContain h1 {
-      font-size: 75px;
-    }
-    .hideOnMobile {
-      display: none; 
-    }
-    .bd-ex #carouselEC {
-        top: 45px;
-        right: 60px;
-    }
- }
-
-@media only screen and (max-width: 615px) {
-  .bd-ex {
-    height: 180px;
-  }
-  .bd-ex img.d-block {
-    max-width: 175px;
-  }
-  .bd-ex #carouselEC {
-    top: 50px;
-    height: 130px;
-  }
-  .mainSection {
-    height: 590px;
-  }
-  .textContain {
-    padding-left: 0;
-    max-width: 60%;
-  }
-  .modal-body h4 {
-    font-weight: 100;
-  }
-}
-
- @media only screen and (max-width: 555px) {
-     .blackBox1 .row {
-         max-width: 95%;
-     }
-
-     .blackBox1 img {
-         max-width: 165px;
-     }
-     .social-icons li {
-         width: 50%;
-     }
-   .bd-ex {
-      height: 160px;
-    }
-   .bd-ex img.d-block {
-      max-width: 145px;
-    }
-   .bd-ex #carouselEC {
-      top: 38px;
-      height: 123px;
-      right: 35px;
-    }
-    .mainSection {
-        height: 530px;
-    }
-   ul.navbar-nav.mr-auto {
-      margin-left: -15px;
-      margin-top: -10px;
-    }
-    .resBox h2 {
-        font-size: 22px;
-    }
-    .resumeArea h2 .lineB {
-        font-size: 14px;
-    }
- }
-
- @media only screen and (max-width: 500px) {
-     .textContain h1 {
-         font-size: 65px;
-     }
-
-     .textContain h2 {
-        font-size: 18px;
-        padding-right: 15px;
-    }
-
-     .camSmile {
-         max-width: 30%;
-     }
-
-     .textContain {
-         top: 50px;
-     }
-    .mainSection {
-        height: 460px;
-    }
- }
-
- @media only screen and (max-width: 450px) {
-    .mainSection {
-        height: 420px;
-    }
-   .camSmile {
-        margin-top: 20px;
-    }
-   #About p {
-      font-size: 15px;
-      font-weight: 100;
-    }
-    .resumeArea ul {
-        padding-left: 25px;
-    }
-    .resBox {
-        padding: 12px;
-    }
-    .textContain a {
-        font-size: 12px;
-        padding: 4px 12px;
-    }
-    .resBox li {
-        font-size: 13px;
-    }
-   .resBox p, 
-   .resBox i {
-        font-size: 14px;
-   }
-   .resBox h2 {
-        font-size: 17px;
-   }
-   .resumeArea h2 .lineB {
-        font-size: 12px;
-   }
-}
-
-
- @media only screen and (max-width: 400px) {
-     .blackBox1 img {
-         max-width: 140px;
-     }
-    .textContain {
-         top: 20px;
-     }
-    .textContain a {
-        font-size: 11px;
-        margin-right: 7px;
-    }
-   .mainSection {
-        height: 440px;
-    }
-   .mainSection {
-      height: 390px;
-    }
-   .camSmile {
-      margin-top: 43px;
-    }
-   .container.text-center .row {
-        width: 100%;
-    }
-   .textContain h2 {
-      font-size: 14px;
-    }
-   .textContain h1 {
-      font-size: 50px;
-    }
-    .bd-ex #carouselEC {
-        right: 12px;
-        width: 60%;
-    }
- }
-  @media only screen and (max-width: 350px) {
-      .blackBox1 img {
-          max-width: 120px;
-      }
-    .textContain {
-      top: 0;
-    }
-  }
-
-
-
- @media print,
- (-webkit-min-device-pixel-ratio: 1.25),
- (min-resolution: 1.25dppx),
- (min-resolution: 120dpi) {
-     /* Style adjustments for high resolution devices */
- }
+  <meta name="theme-color" content="#fafafa">
 
   
- /* ==========================================================================
-    Print styles.
-    Inlined to avoid the additional HTTP request:
-    https://www.phpied.com/delay-loading-your-print-css/
-    ========================================================================== */
+  
+</head>
 
-    @media print {
-     *,
-     *:before,
-     *:after {
-         background: transparent !important;
-         color: #000 !important; /* Black prints faster */
-         -webkit-box-shadow: none !important;
-         box-shadow: none !important;
-         text-shadow: none !important;
-     }
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
 
-     a,
-     a:visited {
-         text-decoration: underline;
-     }
+<!--Navbar-->
+<nav class="navbar navbar-dark  indigo darken-2">
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="https://camrambo.github.io/dev/">Cameron Keyser</a>
+    <!-- Collapse button -->
+    <button class="navbar-toggler third-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent22" aria-controls="navbarSupportedContent22" aria-expanded="false" aria-label="Toggle navigation">
+        <div class="animated-icon3"><span></span><span></span><span></span></div>
+    </button>
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent22">
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="/dev/#About">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="modal" data-target="#exampleModal3">Contact</a>
+            </li>
+            <li class="nav-item hideOnMobile">
+                <a class="nav-link" href="/dev/images/workExp.pdf" target="_blank">Print Resume</a>
+            </li>
+        </ul>
+        <!-- Links -->
+    </div>
+    <!-- Collapsible content -->
+</nav>
+<!--/.Navbar-->
 
-     a[href]:after {
-         content: " (" attr(href) ")";
-     }
-
-     abbr[title]:after {
-         content: " (" attr(title) ")";
-     }
-
-     /*
-      * Don't show links that are fragment identifiers,
-      * or use the `javascript:` pseudo protocol
-      */
-
-     a[href^="#"]:after,
-     a[href^="javascript:"]:after {
-         content: "";
-     }
-
-     pre {
-         white-space: pre-wrap !important;
-     }
-     pre,
-     blockquote {
-         border: 1px solid #999;
-         page-break-inside: avoid;
-     }
+<div class="mainSection" id="tipTop"> 
+    <div class="textContain animated fadeInDown">
+      <h1>Hello!</h1>
+      <h2>My name is Cameron Keyser.<br>I design and develop custom websites.</h2>
+      <a href="/dev/#About">About Me</a>&nbsp;<a data-toggle="modal" data-target="#exampleModal3">Contact Me</a>
+    </div>
+</div>
+  
  
-     /*
-      * Printing Tables:
-      * http://css-discuss.incutio.com/wiki/Printing_Tables
-      */
 
-     thead {
-         display: table-header-group;
-     }
+  <section>
+    <div class="mainContent" id="About">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-4 animated slideInLeft">
+                    <h2>Cameron Keyser</h2>
+                    <h4><i>Full-Stack Web Developer</i></h4>
+                    <center><img src="/dev/images/cs1.jpg" width="250px" class="mainPIC"></center>
+                </div>
+                <div class="col-md-8  animated slideInRight">
+                    <br>
+                    <div class="aboutText">
+                        <h3>About Me</h3>
+                    </div>
+                    <p>Creative web designer and knowledgeable developer from Draper, Utah. </p>
+                    <p>I have a passion for creating and developing eye-catching and effective websites. I enjoy keeping up with new development techniques as well as new design trends. Interested in all things outdoors (camping, snowboarding, hiking). I also enjoy a good book or gaming in my down time. </p>
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal3">
+                        Contact Me
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-     tr,
-     img {
-         page-break-inside: avoid;
-     }
+ <section>
+    <div class="dividerArea">
+        <div class="blackBox1">
+            <h2>View some of my previous work:</h2>
+            <div class="row">
+                <div class="col-md-4 col-4">
+                    <a href="/dev/images/mock1.jpg" data-lightbox="mocks1" data-title=""><img src="/dev/images/mock1.jpg"></a>
+                </div>
+                <div class="col-md-4 col-4">
+                    <a href="/dev/images/epmock2.jpg" data-lightbox="mocks1" data-title=""><img src="/dev/images/epmock2.jpg"></a>
+                </div>
+                <div class="col-md-4 col-4">
+                    <a href="/dev/images/mu3.png" data-lightbox="mocks1" data-title=""><img src="/dev/images/mu3.png"></a>
+                </div>
+            </div>
+            <div class="demoSite">
+                <button class="demoLink a1"><a href="https://camrambo.github.io/store/" target="_blank">View Live Demo Site</a></button>
+                <button class="demoLink b1"><a href="https://github.com/camrambo/store" target="_blank">View GitHub</a></button>
+            </div>
+        </div>
+</section>
+  
+<section>
+    <div class="resumeArea">
+        <center>
+            <h3>My Resume</h3>
+        </center>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="text-center feature-block">
+                    <span class="fb-icon color-exp">
+                        <img src="/dev/images/mind.png">
+                    </span>
+                    <h4 class="color-exp">Experience</h4>
+                    <p><button class="btn btn-exp btn-custom" type="button" data-toggle="collapse" data-target="#collapseExample0" aria-expanded="false" aria-controls="collapseExample">
+                            Learn More
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample0">
+                        <div class="card card-body resBox">
+                            <h2>Nfinite Sites<div class="lineB">Draper, Utah</div></h2>
+                            <p>Owner / Designer / Developer</p>
+                            <i>February 2019 - Present</i>
+                            <ul>
+                                <li>Design, develop, and maintain several small buisness websites.</li>
+                                <li>Implement SEO and marketing campaigns</li>
+                            </ul>
+                            <h6 class="viewSite"><a href="https://www.nfinitesites.com/" target="_blank">View Website</a></h6>
+                            <hr>
+                            <h2>Business Promotion <div class="lineB">American Fork, Utah</div></h2>
+                            <p>Full Stack Developer / Tech Support</p>
+                            <i>October 2016 - February 2019</i>
+                            <ul>
+                                <li>Built and maintaned custom websites for a large number of clients (100+).</li>
+                                <li>Assisted in building custom dashboards for various departments in the company (ex: Retention, Sales, Team Stat Dashboards, etc).</li>
+                                <li>Collaborated directly with business owners when making changes, or when building a new site.</li>
+                            </ul>
+                            <hr>
+                            <h2>Boostability <div class="lineB">Lindon, Utah</div></h2>
+                            <p>Website Consultant / Website Maintenance</p>
+                            <i>January 2015 - September 2016</i>
+                            <ul>
+                                <li>Provided project management for 40-50 website accounts. This included gathering all requests for their website build, as well as provided assistance in post-launch maintenance.</li>
+                                <li>Assisted the development team in creating a website based on information gathered through conference calls and web trainings.</li>
+                            </ul>
+                            <hr>
+                            <h2>Crest Financial <div class="lineB">Draper, Utah</div></h2>
+                            <p>Merchant Account Manager / Finance Underwriter</p>
+                            <i>October 2013 - January 2015</i>
+                            <ul>
+                                <li>Approved and managed new merchant accounts looking to offer in-house financing.</li>
+                                <li>Reviewed and approved individual financing requests from our merchant’s clients.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 miniBox">
+                <div class="text-center feature-block">
+                    <span class="fb-icon color-info">
+                        <img src="/dev/images/whitehat.png">
+                    </span>
+                    <h4 class="color-info">Education</h4>
+                    <p><button class="btn btn-info btn-custom" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Learn More
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            <h5>Utah Valley University</h5>
+                            <p>Information Technology</p>
+                            <p><i>Currently Enrolled</i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 miniBox">
+                <div class="text-center feature-block">
+                    <span class="fb-icon color-danger">
+                        <img src="/dev/images/whitestar.png">
+                    </span>
+                    <h4 class="color-danger">Skills</h4>
+                    <p>
+                        <button class="btn btn-danger btn-custom" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                            Learn More
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample2">
+                        <div class="card card-body">
+                            <p class="jm">
+                                Diligent Problem Solver<br>
+                                Self-Motivated<br>
+                                Excellent Time Management<br>
+                                Adaptable to New Things
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12  miniBox">
+                <div class="text-center feature-block">
+                    <span class="fb-icon color-success">
+                        <img src="/dev/images/whitesb.png">
+                    </span>
+                    <h4 class="color-success">Interests & Activities</h4>
+                    <p>
+                        <button class="btn btn-success btn-custom" type="button" data-toggle="collapse" data-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+                            Learn More
+                        </button>
+                    </p>
+                    <div class="collapse" id="collapseExample3">
+                        <div class="card card-body">
+                            <p class="jm">
+                                Snowboarding<br>
+                                Camping & Hiking<br>
+                                TV & Game Nerd<br>
+                                Computer & Server Building
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-     p,
-     h2,
-     h3 {
-         orphans: 3;
-         widows: 3;
-     }
+  <section>
+    <div class="bottomArea">
+        <!-- Site footer -->
+          <footer class="site-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-xs-12 col-md-12 col-12">
+                  <h6>Quick Links</h6>
+                  <ul class="footer-links social-icons">
+                    <li><a href="/dev/#About" class="facebook" >About</a></li>
+                    <li><a  data-toggle="modal" data-target="#exampleModal3" class="facebook">Contact</a></li>
+                    <li><a href="/dev/images/workExp.pdf" target="_blank"  class="facebook">Print Resume</a></li>
+                    <li><a href="/dev/#tipTop" class="facebook">Back To Top</a></li>
+                  </ul>
+                </div>
+              </div>
+              <hr>
+            </div>
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                  <p class="copyright-text">Website designed & developed by Cameron Keyser
+                  </p>
+                </div>
+              </div>
+            </div>
+      </footer>
+    </div>
+  </section>
+  
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
 
-     h2,
-     h3 {
-         page-break-after: avoid;
-     }
- }
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <script src="js/vendor/three.r92.min.js"></script>
+
+  
+<script>
+  $(document).ready(function () {
+
+  $('.first-button').on('click', function () {
+
+    $('.animated-icon1').toggleClass('open');
+  });
+  $('.second-button').on('click', function () {
+
+    $('.animated-icon2').toggleClass('open');
+  });
+  $('.third-button').on('click', function () {
+
+    $('.animated-icon3').toggleClass('open');
+  });
+});
+</script>
 
 
+  
+  <script src="js/lightbox.js"></script>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModal3Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModal3Label">Contact Me</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+            <div class="col-md-6 col-6">
+              <a href="mailto:cameron.keyser1@gmail.com?subject=RE:Your GitHub Page">
+                <img src="/dev/images/email.png" width="55px">
+                <h4>Email Me</h4>
+              </a>
+            </div>
+            <div class="col-md-6 col-6">
+              <a href="tel:+1-801-651-1999">
+                <img src="/dev/images/call.png" width="55px">
+                <h4>Call Me</h4>
+              </a>
+            </div>
+        </div>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+  
+</body>
+
+</html>
