@@ -806,11 +806,17 @@ p {
    padding: 8px 30px;
    position: relative;
    text-decoration: none;
+   -webkit-transition: all .2s linear;
+   -o-transition: all .2s linear;
+   transition: all .2s linear;
  }
  .btn-exp {
    background-color: #33353d !important;
    color: #fff  !important;
    border: solid 1px #8627c3 !important;
+   -webkit-transition: all .2s linear;
+   -o-transition: all .2s linear;
+   transition: all .2s linear;
  }
  .btn-exp:hover {
 	border: solid 1px #672095 !important;
@@ -820,12 +826,21 @@ p {
  }*/
  .btn-info {
  	background-color: #33353d !important;
+ 	-webkit-transition: all .2s linear;
+ 	-o-transition: all .2s linear;
+ 	transition: all .2s linear;
  }
  .btn-danger {
  	background-color: #33353d !important;
+ 	-webkit-transition: all .2s linear;
+ 	-o-transition: all .2s linear;
+ 	transition: all .2s linear;
  }
  .btn-success {
  	background-color: #33353d !important;
+	-webkit-transition: all .2s linear;
+	-o-transition: all .2s linear;
+	transition: all .2s linear;
  }
  .btn-success:hover {
     color: #fff;
