@@ -151,7 +151,7 @@
  }
 
 #About p {
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 100;
 }
 
@@ -318,6 +318,9 @@ h2 {
  }
 .blackBox1 h2 {
     font-weight: 100;
+}
+p {
+    font-family: 'Catamaran', sans-serif;
 }
 
 
