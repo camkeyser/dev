@@ -1211,7 +1211,7 @@ a, button {
     height: 130px;
   }
   .mainSection {
-    height: 590px;
+      height: 400px;
   }
   .textContain {
     padding-left: 0;
