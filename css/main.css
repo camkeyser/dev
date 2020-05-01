@@ -285,10 +285,7 @@ h2 {
      padding: 5px 15px 10px 15px;
  }
  .mainPIC {
-     border-radius: 50%;
-     box-shadow: 3px 3px 1px #ccc;
-     -webkit-box-shadow: 3px 3px 1px #ccc;
-     -moz-box-shadow: 3px 3px 1px #ccc;
+     max-width: 100%;
  }
 
  .dividerArea {
