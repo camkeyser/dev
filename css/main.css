@@ -1143,8 +1143,8 @@ a, button {
 		    margin: 0 5px;
 		}
 		.owl-theme .owl-nav [class*=owl-]:hover {
-		    background: none;
-		    color: #28a645;
+		    background: none !important;
+		    color: #28a645 !important;
 		}
 
   }
