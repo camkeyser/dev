@@ -1128,8 +1128,23 @@ a, button {
 		.blackBox1 .row {
 			display: none;
 		}
+		.owl-carousel {
+		    margin-top: 35px;
+		}
 		.owl-carousel .owl-item img {
 		    margin: 0 auto;
+		}
+		.owl-nav {
+		    color: white;
+		    font-size: 55px;
+		}
+		.owl-nav i {
+		    font-size: 40px;
+		    margin: 0 5px;
+		}
+		.owl-theme .owl-nav [class*=owl-]:hover {
+		    background: none;
+		    color: #28a645;
 		}
 
   }
