@@ -1185,7 +1185,7 @@ a, button {
    .mainSection {
         background-size: 100%;
         background-repeat: no-repeat;
-        background-position: top;
+        background-position: cover;
     }
     .textContain h1 {
       font-size: 75px;
