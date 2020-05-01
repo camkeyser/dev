@@ -1120,7 +1120,7 @@ a, button {
  }
 
   @media only screen and (max-width: 930px) {
-		.blackBox1 {
+		.blackBox1 .row {
 			display: none;
 		}
 		.owl-carousel .owl-item img {
