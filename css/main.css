@@ -1120,13 +1120,16 @@ a, button {
  }
   @media only screen and (min-width: 931px) {
 		.owl-carousel {
-			display: none;
+			display: none !important;
 		}
   }
 
   @media only screen and (max-width: 930px) {
 		.blackBox1 .row {
 			display: none;
+		}
+		.owl-carousel {
+			display: block !important;
 		}
 		.owl-carousel .owl-item img {
 		    margin: 0 auto;
