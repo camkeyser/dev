@@ -1253,6 +1253,13 @@ a, button {
     .resumeArea h2 .lineB {
         font-size: 14px;
     }
+    .demoLink {
+        margin: 15px;
+    }
+    .demoSite {
+        max-width: 90%;
+        margin: 0 auto;
+    }
  }
 
  @media only screen and (max-width: 500px) {
