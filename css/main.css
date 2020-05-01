@@ -1214,8 +1214,9 @@ a, button {
       height: 400px;
   }
   .textContain {
-    padding-left: 0;
-    max-width: 60%;
+      padding-left: 0;
+      padding-top: 17%;
+      max-width: 50%;
   }
   .modal-body h4 {
     font-weight: 100;
@@ -1262,6 +1263,9 @@ a, button {
     }
     .blackBox1 img {
         max-width: 80%;
+    }
+    .textContain {
+        max-width: 60%;
     }
  }
 
@@ -1321,13 +1325,19 @@ a, button {
    .resumeArea h2 .lineB {
         font-size: 12px;
    }
+   .textContain {
+       padding-top: 21%;
+       max-width: 64%;
+   }
 }
 
 
  @media only screen and (max-width: 400px) {
     .textContain {
-         top: 20px;
-     }
+        padding-left: 0;
+        padding-top: 24%;
+        max-width: 77%;
+    }
     .textContain a {
         font-size: 11px;
         margin-right: 7px;
@@ -1354,7 +1364,9 @@ a, button {
  }
   @media only screen and (max-width: 350px) {
     .textContain {
-      top: 0;
+        padding-left: 0;
+        padding-top: 24%;
+        max-width: 82%;
     }
   }
 
