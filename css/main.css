@@ -1128,9 +1128,6 @@ a, button {
 		.blackBox1 .row {
 			display: none;
 		}
-		.owl-carousel {
-			display: block !important;
-		}
 		.owl-carousel .owl-item img {
 		    margin: 0 auto;
 		}
