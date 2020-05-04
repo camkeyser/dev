@@ -324,6 +324,14 @@ p {
 
 /*contact form*/
 
+#contactForm {
+    background: #33353d;
+}
+
+#contactForm svg {
+    background: #33353d;
+}
+
 #feedback-page{
 	text-align:center;
 }
@@ -336,23 +344,20 @@ p {
 	text-align:center;
 }
 
-#form-main{
-	width:100%;
-	float:left;
-	padding-top:30px;
+#form-main {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 #form-div {
-	background-color:#3c3c3c;
-	padding-left:35px;
-	padding-right:35px;
-	padding-top:35px;
-	padding-bottom:50px;
-	width: 450px;
-	float: left;
-	left: 50%;
-	position: absolute;
-	margin-left: -260px;
+    background-color: #1f2022;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 35px;
+    padding-bottom: 50px;
+    width: 450px;
+    margin: 0 auto;
 }
 
 .feedback-input {
