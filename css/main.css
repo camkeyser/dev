@@ -464,6 +464,14 @@ input:focus, textarea:focus {
 .submit:hover {
 	color: #3498db;
 }
+
+#contactForm h3 {
+    color: white;
+    font-size: 45px;
+    margin-top: 60px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
 	
 .ease {
   border-top:3px #3c3c3c solid;
