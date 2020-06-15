@@ -169,8 +169,21 @@
   .mainContent {
     background: #33353d;
     padding-bottom: 115px;
-    padding-top: 75px;
+    padding-top: 115px;
     color: white;
+}
+
+.angleDiv1 svg {
+    background: #33353d;
+}
+
+.angleDiv2 svg {
+    background: #1f2022;
+}
+
+.angleDiv2 path {
+    stroke: #33353d;
+    fill: #33353d;
 }
 
   .resumeArea h3 {
