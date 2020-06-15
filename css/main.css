@@ -167,10 +167,11 @@
   }
 
   .mainContent {
-      background: white;
-      margin-bottom: 115px;
-      margin-top: 75px;
-  }
+    background: #33353d;
+    padding-bottom: 115px;
+    padding-top: 75px;
+    color: white;
+}
 
   .resumeArea h3 {
       margin-top: 45px;
@@ -313,7 +314,7 @@
       background: #1f2022;
       color: white;
       text-align: center;
-      margin-top: 100px;
+      margin-top: 0;
       margin-bottom: 100px;
   }
 
@@ -1027,7 +1028,7 @@
       border: #fbfbfb solid 2px;
       background-color: #33353d;
       color: white;
-      font-size: 24px;
+      font-size: 18px;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s;
@@ -1036,9 +1037,11 @@
   .btn-exp a {
       color: white;
       font-size: 18px;
-      text-decoration: none;
   }
-
+  .btn-exp a:hover {
+      text-decoration: none;
+      color: white;
+  }
   .btn-exp:hover {
       background-color: rgb(42, 129, 84);
       color: #ffffff;
