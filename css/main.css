@@ -1039,6 +1039,10 @@
   .aboutBox .btn-exp {
       background: #1f2022;
   }
+  
+  .aboutBox {
+    padding: 0 65px;
+  }
 
   .btn-exp a {
       color: white;
@@ -1344,6 +1348,10 @@
 
       .bd-ex #carouselEC {
           height: 210px;
+      }
+
+      .aboutBox {
+        padding: 0;
       }
 
   }
