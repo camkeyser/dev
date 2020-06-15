@@ -1044,6 +1044,10 @@
     padding: 0 65px;
   }
 
+  .aboutBox .btn-exp {
+      margin: 0 10px;
+  }
+
   .btn-exp a {
       color: white;
       font-size: 18px;
@@ -1190,17 +1194,20 @@
   }
 
   .demoLink {
-      border-radius: 10px !important;
-      background-color: #33353d;
-      border: solid 1px white;
-      padding: 10px 0 !important;
       margin: 0 15px;
       overflow: hidden;
+      font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+      border: #fbfbfb solid 2px;
+      background-color: #33353d;
+      color: white;
+      font-size: 18px;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      transition: all 0.3s;
   }
 
   .demoLink a {
-      color: #d1d1d1;
-      padding: 20px 50px;
+      color: white;
   }
 
   .demoLink a:hover {
@@ -1209,7 +1216,7 @@
   }
 
   .demoLink:hover {
-      background: #2a8154;
+      background: rgb(42, 129, 84);
   }
 
   .demoSite {
