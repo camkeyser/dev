@@ -969,59 +969,26 @@ input:focus, textarea:focus {
  .color-danger {
    color: #d43f3a;
  }
- .btn-custom{
-   border: medium none;
-   border-radius: 2px;
-   cursor: pointer;
-   font-size: 14px;
-   font-weight: 500;
-   letter-spacing: 0;
-   margin: 10px 1px;
-   outline: 0 none;
-   padding: 8px 30px;
-   position: relative;
-   text-decoration: none;
-   -webkit-transition: all .2s linear;
-   -o-transition: all .2s linear;
-   transition: all .2s linear;
- }
  .btn-exp {
-   background-color: #33353d !important;
-   color: #fff  !important;
-   border: solid 1px #8627c3 !important;
-   -webkit-transition: all .2s linear;
-   -o-transition: all .2s linear;
-   transition: all .2s linear;
- }
- .btn-exp:hover {
-	border: solid 1px #672095 !important;
- }
-/*.btn-exp:focus {
- 	box-shadow: 0 0 0 0.2rem rgb(83, 33, 117);
- }*/
- .btn-info {
- 	background-color: #33353d !important;
- 	-webkit-transition: all .2s linear;
- 	-o-transition: all .2s linear;
- 	transition: all .2s linear;
- }
- .btn-danger {
- 	background-color: #33353d !important;
- 	-webkit-transition: all .2s linear;
- 	-o-transition: all .2s linear;
- 	transition: all .2s linear;
- }
- .btn-success {
- 	background-color: #33353d !important;
-	-webkit-transition: all .2s linear;
-	-o-transition: all .2s linear;
-	transition: all .2s linear;
- }
- .btn-success:hover {
-    color: #fff;
-    background-color: #1e7e34 !important;
-    border-color: #1e7e34;
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    border: #fbfbfb solid 4px;
+    background-color: #33353d;
+    color: white;
+    font-size: 24px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
 }
+ .btn-exp:hover {
+    background-color: rgb(42, 129, 84);
+    color: #ffffff;
+ }
+ .btn-exp.focus, 
+ .btn-exp:focus {
+     outline: 0;
+     box-shadow: 0 0 0 0.2rem rgba(134, 39, 195, 0.48) !important;
+
+ }
 .resumeArea h4 {
     color: white;
 }
@@ -1029,18 +996,7 @@ input:focus, textarea:focus {
    background-color: #5c0c90;
    color: #fff;
  }
- .btn-exp:hover {
-     color: #fff;
-     background-color: #3e0961;
-     border-color: #aa35f7;
- }
- .btn-exp.focus, .btn-exp:focus {
-     outline: 0;
-     box-shadow: 0 0 0 0.2rem rgba(134, 39, 195, 0.48) !important;
-
- }
-
- .modal-body img {
+.modal-body img {
      margin-right: 15px;
      margin-left: 15px;
  }
