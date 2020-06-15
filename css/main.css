@@ -90,11 +90,17 @@
       background-size: cover;
       background-repeat: no-repeat;
       background-position: top;
+      -webkit-clip-path: polygon(100% 0, 100% 84%, 50% 100%, 0 84%, 0 0);
+      clip-path: polygon(100% 0, 100% 84%, 50% 100%, 0 84%, 0 0);
   }
 
   .mainContent h4 {
       font-size: 17px;
       margin-bottom: 30px;
+  }
+
+  .mainWrap {
+      background: #33353d;
   }
 
   button {
