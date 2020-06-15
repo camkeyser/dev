@@ -94,6 +94,7 @@
 
   .mainContent h4 {
       font-size: 17px;
+      margin-bottom: 30px;
   }
 
   button {
@@ -154,20 +155,20 @@
   }
 
   .mainContent {
-    background: #33353d;
-    padding-bottom: 115px;
-    padding-top: 115px;
-    color: white;
-}
+      background: #33353d;
+      padding-bottom: 115px;
+      padding-top: 115px;
+      color: white;
+  }
 
-.angleDiv2 svg {
-    background: #1f2022;
-}
+  .angleDiv2 svg {
+      background: #1f2022;
+  }
 
-.angleDiv2 path {
-    stroke: #33353d;
-    fill: #33353d;
-}
+  .angleDiv2 path {
+      stroke: #33353d;
+      fill: #33353d;
+  }
 
   .resumeArea h3 {
       margin-top: 45px;
@@ -228,6 +229,7 @@
       border-radius: 25px;
       padding: 8px 30px;
       margin-right: 13px;
+      background: #33353d;
   }
 
   .textContain a:hover {
@@ -1019,6 +1021,10 @@
       color: #d43f3a;
   }
 
+  .aboutText h2 {
+      margin-bottom: 0;
+  }
+
   .btn-exp {
       font-family: 'Montserrat', Helvetica, Arial, sans-serif;
       border: #fbfbfb solid 2px;
@@ -1030,14 +1036,20 @@
       transition: all 0.3s;
   }
 
+  .aboutBox .btn-exp {
+      background: #1f2022;
+  }
+
   .btn-exp a {
       color: white;
       font-size: 18px;
   }
+
   .btn-exp a:hover {
       text-decoration: none;
       color: white;
   }
+
   .btn-exp:hover {
       background-color: rgb(42, 129, 84);
       color: #ffffff;
