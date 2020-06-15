@@ -173,10 +173,6 @@
     color: white;
 }
 
-.angleDiv1 svg {
-    background: #33353d;
-}
-
 .angleDiv2 svg {
     background: #1f2022;
 }
@@ -984,7 +980,7 @@
       margin: 1rem auto;
       width: 80px;
       transition: all 0.5s ease 0s;
-      background-color: black !important;
+      background-color: #1f2022 !important;
       border: solid;
   }
 
