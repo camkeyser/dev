@@ -930,11 +930,6 @@ input:focus, textarea:focus {
      max-width: 80%;
      padding: 5px;
  }
- .feature-block:hover .fb-icon,
- .feature-block:focus .fb-icon {
-   box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
-   transform: rotate(360deg);
- }
  .fb-icon.color-info {
    background-color: #5bc0de;
    color: #fff;
