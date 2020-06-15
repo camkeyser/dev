@@ -1066,8 +1066,6 @@
   .btn-exp.focus,
   .btn-exp:focus {
       outline: 0;
-      box-shadow: 0 0 0 0.2rem rgba(134, 39, 195, 0.48) !important;
-
   }
 
   .resumeArea h4 {
