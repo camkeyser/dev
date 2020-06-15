@@ -103,10 +103,6 @@
       background: #33353d;
   }
 
-  button {
-      border-radius: 25px !important;
-  }
-
   .textContain,
   .mainContent .animated {
       animation-duration: 1.5s !important;
@@ -1495,8 +1491,17 @@
           max-width: 50%;
       }
 
-      .modal-body h4 {
-          font-weight: 100;
+      .btn-exp a {
+          color: white;
+          font-size: 14px;
+      }
+
+      .demoLink {
+          font-size: 14px;
+      }
+
+      button {
+          padding: 8px 20px !important;
       }
   }
 
