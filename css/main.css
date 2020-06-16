@@ -1053,6 +1053,10 @@
       margin: 25px 10px 0 10px;
   }
 
+.aboutText h2 {
+    font-size: 45px;
+}
+
   .btn-exp a {
       color: white;
       font-size: 18px;
