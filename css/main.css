@@ -1030,6 +1030,10 @@
       margin-bottom: 0;
   }
 
+  .printPDF {
+      color: black;
+  }
+
   .btn-exp {
       font-family: 'Montserrat', Helvetica, Arial, sans-serif;
       border: #fbfbfb solid 2px;
