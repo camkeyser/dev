@@ -476,7 +476,7 @@
   }
 
   #button-blue {
-      font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+      font-family: 'Josefin Sans', sans-serif;
       float: left;
       width: 100%;
       border: #fbfbfb solid 4px;
@@ -610,6 +610,7 @@
       line-height: 40px;
       border-radius: 25px;
       background-color: #33353d;
+      font-family: 'Josefin Sans', sans-serif;
   }
 
   .copyright-text {
@@ -1008,7 +1009,7 @@
       font-size: 23px;
       font-weight: 100;
       margin: 2rem 0 1rem;
-      text-decoration: overline;
+      font-family: 'Josefin Sans', sans-serif;
   }
 
   .color-info {
@@ -1036,7 +1037,7 @@
   }
 
   .btn-exp {
-      font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+      font-family: 'Josefin Sans', sans-serif;
       border: #fbfbfb solid 2px;
       background-color: #33353d;
       color: white;
