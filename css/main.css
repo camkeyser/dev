@@ -1285,6 +1285,7 @@
 }
 .nodeBody h2 {
     font-size: 23px;
+    margin: 0;
 }
 .gitFlex {
     display: flex;
