@@ -1602,6 +1602,25 @@
       }
   }
 
+  @media only screen and (max-width: 650px) {
+    .nodeWrap {
+      flex-direction: column;
+    }
+    .firstNode {
+      display: block;
+    }
+    .nodePic1, 
+    .nodePic2, 
+    .nodePic3 {
+        height: 0;
+    }
+    .expNode {
+      height: 80px;
+      width: 70%;
+    }
+    
+  }
+
   @media only screen and (max-width: 615px) {
       .bd-ex {
           height: 180px;
