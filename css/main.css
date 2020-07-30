@@ -1264,19 +1264,19 @@
 }
 .nodePic1 {
     height: 77%;
-    background-image: url(http://localhost/dadsSite/img/bugTracker.png);
+    background-image: url(https://camkeyser.github.io/dev/images/bugTracker.png);
     background-size: cover;
     border-radius: 5px 5px 0 0;
 }
 .nodePic2 {
     height: 77%;
-    background-image: url(http://localhost/dadsSite/img/demoStore.png);
+    background-image: url(https://camkeyser.github.io/dev/images/demoStore.png);
     background-size: cover;
     border-radius: 5px 5px 0 0;
 }
 .nodePic3 {
     height: 77%;
-    background-image: url(http://localhost/dadsSite/img/nfinite.png);
+    background-image: url(https://camkeyser.github.io/dev/images/nfinite.png);
     background-size: cover;
     border-radius: 5px 5px 0 0;
 }
