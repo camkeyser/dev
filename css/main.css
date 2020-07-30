@@ -332,11 +332,11 @@
       max-width: 85%;
   }
 
-  .blackBox1 img {
+  /*.blackBox1 img {
       max-width: 250px;
       border-radius: 5px;
       border: #cbcbcb solid 2px;
-  }
+  }*/
 
   .blackBox1 {
       padding-bottom: 70px;
