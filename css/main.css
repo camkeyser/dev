@@ -1493,7 +1493,9 @@
       .aboutBox {
           padding: 0;
       }
-
+      .firstNode {
+        display: none;
+      }
   }
 
   @media only screen and (min-width: 931px) {
