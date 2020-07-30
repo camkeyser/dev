@@ -1244,7 +1244,7 @@
     margin: 0 auto;
 }
 .expNode {
-    height: 400px;
+    height: 420px;
     background: #535353;
     border-radius: 10px;
     position: relative;
@@ -1281,7 +1281,7 @@
     border-radius: 5px 5px 0 0;
 }
 .nodeBody {
-    padding: 5px 10px;
+    padding: 10px;
 }
 .nodeBody h2 {
     font-size: 23px;
