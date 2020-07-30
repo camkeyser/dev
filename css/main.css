@@ -1606,9 +1606,6 @@
     .nodeWrap {
       flex-direction: column;
     }
-    .firstNode {
-      display: block;
-    }
     .nodePic1, 
     .nodePic2, 
     .nodePic3 {
