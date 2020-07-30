@@ -1612,10 +1612,13 @@
         height: 0;
     }
     .expNode {
-      height: 80px;
+      height: 100px;
       width: 70%;
     }
-    
+    .nodeBody h2 {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
   }
 
   @media only screen and (max-width: 615px) {
