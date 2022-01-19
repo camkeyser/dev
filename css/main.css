@@ -1031,9 +1031,14 @@
   .aboutText h2 {
       margin-bottom: 0;
   }
+  
+  .res-head {
+    color: #fff;
+    margin-bottom: 30px;
+  } 
 
   .printPDF {
-      color: black;
+      color: #fff;
   }
 
   .btn-exp {
