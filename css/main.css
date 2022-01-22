@@ -1297,6 +1297,12 @@
     background-size: cover;
     border-radius: 5px 5px 0 0;
 }
+.nodePic6 {
+    height: 77%;
+    background-image: url(https://camkeyser.github.io/dev/images/baab.jpg);
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+}
 .nodeBody {
     padding: 10px;
 }
@@ -1330,7 +1336,8 @@
 }
 .thirdNode p,
 .forthNode p,
-.fifthNode p {
+.fifthNode p,
+.sixthNode p {
   text-align: right;
   margin: 20px 10px 0 0;
   color: white;
