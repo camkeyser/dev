@@ -1281,13 +1281,13 @@
 }
 .nodePic3 {
     height: 77%;
-    background-image: url(https://camkeyser.github.io/dev/images/blueiguana.jpg);
+    background-image: url(https://camkeyser.github.io/dev/images/avalon.jpg);
     background-size: cover;
     border-radius: 5px 5px 0 0;
 }
 .nodePic4 {
     height: 77%;
-    background-image: url(https://camkeyser.github.io/dev/images/avalon.jpg);
+    background-image: url(https://camkeyser.github.io/dev/images/blueiguana.jpg);
     background-size: cover;
     border-radius: 5px 5px 0 0;
 }
@@ -1328,7 +1328,9 @@
 .gitFlex p {
     margin: 0 10px 0 0;
 }
-.thirdNode p {
+.thirdNode p,
+.forthNode p,
+.fifthNode p {
   text-align: right;
   margin: 20px 10px 0 0;
   color: white;
