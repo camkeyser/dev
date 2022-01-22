@@ -1281,7 +1281,19 @@
 }
 .nodePic3 {
     height: 77%;
-    background-image: url(https://camkeyser.github.io/dev/images/nfinite.png);
+    background-image: url(https://camkeyser.github.io/dev/images/blueiguana.jpg);
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+}
+.nodePic4 {
+    height: 77%;
+    background-image: url(https://camkeyser.github.io/dev/images/avalon.jpg);
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+}
+.nodePic5 {
+    height: 77%;
+    background-image: url(https://camkeyser.github.io/dev/images/ssg.jpg);
     background-size: cover;
     border-radius: 5px 5px 0 0;
 }
